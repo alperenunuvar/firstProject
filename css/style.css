@@ -1,0 +1,405 @@
+@charset "utf-8";
+
+/* ===================================== [ GENEL ] ===================================== */ 
+#arkaplan{
+	background:url(../img/arkaplan.jpg);
+	background-attachment:fixed;
+}
+
+#kapsayici{
+	width:800px;
+	margin-top:45px;
+}
+
+#banner{
+	width:800px;
+	height:150px;
+	border:5px solid #EEEEEE;
+	
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	border-top-left-radius:10px;	
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	border-top-right-radius:10px;	
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-bottom-left-radius:10px;	
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+/* ===================================== [ ÜST MENÜ ] ===================================== */ 
+#ustmenu{
+	background-color:#900;
+	width:100%;
+	height:30px;
+	z-index:1;
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+
+#ustmenu_gezegenler{
+	line-height:30px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:13px;
+	font-style:italic;
+	font-weight:bold;
+	color:#FFF;
+	text-align:center;
+	text-decoration:none;		
+}
+
+#ustmenu_gezegenler a{
+	line-height:30px;
+	margin-left:50px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:13px;
+	font-style:italic;
+	font-weight:bold;
+	color:#FFF;
+	text-align:center;
+	text-decoration:none;		
+}
+
+#bilgi_arkaplan{
+	background-color:#F00;
+	width:100%;
+	height:20px;
+	position:fixed;
+	top:30px;
+	left:0;
+}
+
+#bilgi{
+	position:fixed;
+	top:15px;
+	margin-left:500px;
+	color:#FFF;
+	font-style:italic;
+	font-size:14px;
+	text-align:center;
+}
+
+/* ===================================== [ MENÜ ] ===================================== */ 
+#menu{
+	margin-top:20px;
+	width:800px;
+	height:30px;	
+}
+
+.menum{
+	list-style-type:none;
+	margin-left:-30px;
+}
+
+.menum li{
+	display:inline;
+}
+
+.menum a{
+	text-decoration:none;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding:10px 30px;
+	color:#F90;
+	font-size:16px;
+	font-weight:bold;
+	background-color:#EEEEEE;
+	
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	border-top-left-radius:10px;	
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	border-top-right-radius:10px;	
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-bottom-left-radius:10px;	
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+.menum a:hover{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	color:#C60;
+	background-color:#FFF
+}
+
+/* ===================================== [ İÇERİK ] ===================================== */ 
+#icerik{
+	float:left;
+	background-color:#EEEEEE;
+	margin-top:10px;
+	margin-bottom:50px;
+	width:800px;
+	opacity:0.9;
+	border:5px solid #EEEEEE;
+
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	border-top-left-radius:10px;	
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	border-top-right-radius:10px;	
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-bottom-left-radius:10px;	
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+#baslik{
+	float:left;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:20px;
+	color:#C60;
+	font-weight:bold;
+	margin-top:20px;
+	margin-left:20px;	
+}
+
+#paragraf_1{
+	float:left;
+	padding-top:10px;
+	padding-right:10px;
+	padding-left:10px;	
+	
+	text-indent:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-weight:500;
+	font-size:12px;
+	text-align:justify;
+}
+
+#paragraf_2{
+	float:left;
+	width:400px;
+	padding-right:10px;
+	padding-left:10px;
+		
+	text-indent:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-weight:500;
+	font-size:12px;
+	text-align:justify;
+}
+
+#paragraf_3{
+	float:left;
+	padding-right:10px;
+	padding-left:10px;
+		
+	text-indent:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-weight:500;
+	font-size:12px;
+	text-align:justify;
+}
+
+#resim{
+	float:left;
+	margin-top:5px;
+	margin-left:100px;
+}
+
+#resim_2{
+	float:left;
+	margin-top:-10px;
+	margin-left:80px;
+}
+
+#resim_3{
+	float:left;
+	margin-top:-15px;
+	margin-left:70px;
+}
+
+#resim_4{
+	float:left;
+	margin-top:10px;
+	margin-left:60px;
+}
+
+#resim_5{
+	float:left;
+	margin-top:-15px;
+	margin-left:100px;
+}
+
+#resim_6{
+	float:left;
+	margin-top:-10px;
+	margin-left:80px;
+}
+
+#resim_7{
+	float:left;
+	margin-top:30px;
+	margin-left:90px;
+}
+
+#resim_8{
+	float:left;
+	margin-top:-20px;
+	margin-left:80px;
+}
+
+#resim_9{
+	float:left;
+	margin-top:-10px;
+	margin-left:60px;
+}
+
+#gezegenler{
+	width:200px;
+	padding:20px;
+	margin-top:80px;
+	margin-left:100px;
+	margin-right:100px;
+	margin-bottom:30px;
+	border:1px solid #000;
+}
+
+#gezegen_resim{
+	border:1px solid #000;
+	width:150px;
+	height:150px;
+}
+
+#g_baslik{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	color:#000;
+}
+
+#g_metin{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#000;
+}
+
+#g_baslik_a{	
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	color:#C60;
+	font-weight:bold;		
+}
+
+#left_arrow{
+	float:left;
+	margin-top:30px;
+	margin-left:180px;
+}
+
+#right_arrow{
+	float:left;
+	margin-top:30px;
+	margin-left:60px;
+}
+
+#ozellik a{
+	float:left;
+	margin-top:25px;
+	margin-left:10px;
+	text-decoration:none;
+	color:#F93;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+
+/* ===================================== [ GALERİ ] ===================================== */ 
+#galeri_kapsayici{	
+	padding-top:80px;
+	padding-bottom:80px;	
+}
+
+#galeri_resimler{	
+	border:2px dotted red;
+	
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	border-top-left-radius:10px;	
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	border-top-right-radius:10px;	
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-bottom-left-radius:10px;	
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+/* ===================================== [ İLETİŞİM FORMU ] ===================================== */ 
+#iletisim{
+	clear:both;	
+	margin-top:80px;
+	margin-left:120px;
+	padding-bottom:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-weight:500;
+	font-size:16px;
+}
+
+#form_kutusu{
+	border:2px dotted #F00;
+	font-style:italic;
+}
+
+#form_yazisi{
+	font-weight:bold;
+	font-size:16px;
+	font-family:Arial;
+	color:#000000;
+}
+
+#form_buton{
+	border:2px solid green;
+}
+
+#iletisim_kurallari{
+	color:#000000;
+}
+
+/* ===================================== [ FOOTER ] ===================================== */ 
+#footer{
+	background-color:#900;
+	width:100%;
+	hegiht:80px;
+	z-index:1;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+}
+
+#footerimza{
+	float:right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	color:#FFF;
+	font-weight:200;
+	margin-right:15px;
+}
+
+#footeryazi{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	color:#FFF;
+	font-weight:200;
+	margin-left:15px;	
+}
